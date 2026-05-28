@@ -14,7 +14,9 @@
     "build": "node -e \"console.log('Build step OK')\""
   },
   "jest": {
-    "collectCoverageFrom": ["src/**/*.js"],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 70,
