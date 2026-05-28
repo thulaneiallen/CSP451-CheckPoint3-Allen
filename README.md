@@ -8,7 +8,7 @@ This project is a small Node.js and Express HTTP service for CSP-451 CheckPoint 
 ## Endpoints
 
 - `GET /` returns a basic JSON status response.
-- `GET /health` will be added on a feature branch.
+- `GET /health` returns a JSON health response with status and uptime.
 
 ## Local Commands
 
